@@ -1,6 +1,6 @@
     /*Change a first circle color  */
     $(document).ready(function() {
-        $(".dot").mouseover(function() {
+        $(".dot").click(function() {
             $(".dot").css("background-color", "#7FFF00");
         });
         $(".dot").mouseout(function() {
@@ -11,7 +11,7 @@
 
         /*Change a second circle color  */
 
-        $(".dot1").mouseover(function() {
+        $(".dot1").click(function() {
             $(".dot1").css("background-color", "#DC143C");
         });
         $(".dot1").mouseout(function() {
@@ -21,7 +21,7 @@
 
         /*Change a third circle color  */
 
-        $(".dot2").mouseover(function() {
+        $(".dot2").click(function() {
             $(".dot2").css("background-color", "#9ACD32");
         });
         $(".dot2").mouseout(function() {
@@ -31,7 +31,7 @@
 
         /*Change a fourth circle color  */
 
-        $(".dot3").mouseover(function() {
+        $(".dot3").click(function() {
             $(".dot3").css("background-color", "#800080")
         });
         $(".dot3").mouseout(function() {
@@ -41,7 +41,7 @@
 
         /*Change a fifth circle color  */
 
-        $(".dot4").mouseover(function() {
+        $(".dot4").click(function() {
             $(".dot4").css("background-color", "#66CDAA");
         });
         $(".dot4").mouseout(function() {
@@ -51,7 +51,7 @@
 
         /*Change a sixth circle color  */
 
-        $(".dot5").mouseover(function() {
+        $(".dot5").click(function() {
             $(".dot5").css("background-color", "#9932CC");
         });
         $(".dot5").mouseout(function() {
@@ -61,7 +61,7 @@
 
         /*Change a seventh circle color  */
 
-        $(".dot6").mouseover(function() {
+        $(".dot6").click(function() {
             $(".dot6").css("background-color", "#FFD700");
         });
         $(".dot6").mouseout(function() {
